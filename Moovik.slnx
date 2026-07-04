@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Moovik.Api/Moovik.Api.csproj" />
+    <Project Path="src/Moovik.Client/Moovik.Client.csproj" />
+  </Folder>
+</Solution>

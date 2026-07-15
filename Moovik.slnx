@@ -1,6 +1,16 @@
 <Solution>
-  <Folder Name="/src/">
-    <Project Path="src/Moovik.Api/Moovik.Api.csproj" />
-    <Project Path="src/Moovik.Client/Moovik.Client.csproj" />
+  <Folder Name="/src/" />
+  <Folder Name="/src/Core/">
+    <Project Path="src/Core/Moovik.Application/Moovik.Application.csproj" />
+    <Project Path="src/Core/Moovik.Domain/Moovik.Domain.csproj" />
+    <Project Path="src/Core/Moovik.DomainService/Moovik.DomainService.csproj" />
+  </Folder>
+  <Folder Name="/src/Infrastructure/">
+    <Project Path="src/Infrastructure/Moovik.Infrastructure/Moovik.Infrastructure.csproj" />
+    <Project Path="src/Infrastructure/Moovik.Persistence/Moovik.Persistence.csproj" />
+  </Folder>
+  <Folder Name="/src/Presentation/">
+    <Project Path="src/Presentation/Moovik.Api/Moovik.Api.csproj" />
+    <Project Path="src/Presentation/Moovik.Client/Moovik.Client.csproj" />
   </Folder>
 </Solution>

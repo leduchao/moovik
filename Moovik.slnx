@@ -13,4 +13,7 @@
     <Project Path="src/Presentation/Moovik.Api/Moovik.Api.csproj" />
     <Project Path="src/Presentation/Moovik.Client/Moovik.Client.csproj" />
   </Folder>
+  <Folder Name="/src/Shared/">
+    <Project Path="src/Shared/Moovik.Shared/Moovik.Shared.csproj" />
+  </Folder>
 </Solution>

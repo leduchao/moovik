@@ -1,19 +1,47 @@
 <Solution>
-  <Folder Name="/src/" />
-  <Folder Name="/src/Core/">
-    <Project Path="src/Core/Moovik.Application/Moovik.Application.csproj" />
-    <Project Path="src/Core/Moovik.Domain/Moovik.Domain.csproj" />
-    <Project Path="src/Core/Moovik.DomainService/Moovik.DomainService.csproj" />
+  <Folder Name="/src/">
+    <Project Path="src/Moovik.Shared/Moovik.Shared.csproj" />
+    <Project Path="src/Moovik.Web/Moovik.Web.csproj" />
   </Folder>
-  <Folder Name="/src/Infrastructure/">
-    <Project Path="src/Infrastructure/Moovik.Infrastructure/Moovik.Infrastructure.csproj" />
-    <Project Path="src/Infrastructure/Moovik.Persistence/Moovik.Persistence.csproj" />
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Booking/">
+    <Project Path="src/Modules/Booking/Moovik.Modules.Booking.Application/Moovik.Modules.Booking.Application.csproj" />
+    <Project Path="src/Modules/Booking/Moovik.Modules.Booking.Domain/Moovik.Modules.Booking.Domain.csproj" />
+    <Project Path="src/Modules/Booking/Moovik.Modules.Booking.Infrastructure/Moovik.Modules.Booking.Infrastructure.csproj" />
   </Folder>
-  <Folder Name="/src/Presentation/">
-    <Project Path="src/Presentation/Moovik.Api/Moovik.Api.csproj" />
-    <Project Path="src/Presentation/Moovik.Client/Moovik.Client.csproj" />
+  <Folder Name="/src/Modules/Cinema/">
+    <Project Path="src/Modules/Cinema/Moovik.Modules.Cinema.Application/Moovik.Modules.Cinema.Application.csproj" />
+    <Project Path="src/Modules/Cinema/Moovik.Modules.Cinema.Domain/Moovik.Modules.Cinema.Domain.csproj" />
+    <Project Path="src/Modules/Cinema/Moovik.Modules.Cinema.Infrastructure/Moovik.Modules.Cinema.Infrastructure.csproj" />
   </Folder>
-  <Folder Name="/src/Shared/">
-    <Project Path="src/Shared/Moovik.Shared/Moovik.Shared.csproj" />
+  <Folder Name="/src/Modules/Customer/">
+    <Project Path="src/Modules/Customer/Moovik.Modules.Customer.Application/Moovik.Modules.Customer.Application.csproj" />
+    <Project Path="src/Modules/Customer/Moovik.Modules.Customer.Domain/Moovik.Modules.Customer.Domain.csproj" />
+    <Project Path="src/Modules/Customer/Moovik.Modules.Customer.Infrastructure/Moovik.Modules.Customer.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Identity/">
+    <Project Path="src/Modules/Identity/Moovik.Modules.Identity.Application/Moovik.Modules.Identity.Application.csproj" />
+    <Project Path="src/Modules/Identity/Moovik.Modules.Identity.Domain/Moovik.Modules.Identity.Domain.csproj" />
+    <Project Path="src/Modules/Identity/Moovik.Modules.Identity.Infrastructure/Moovik.Modules.Identity.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Movie/">
+    <Project Path="src/Modules/Movie/Moovik.Modules.Movie.Application/Moovik.Modules.Movie.Application.csproj" />
+    <Project Path="src/Modules/Movie/Moovik.Modules.Movie.Domain/Moovik.Modules.Movie.Domain.csproj" />
+    <Project Path="src/Modules/Movie/Moovik.Modules.Movie.Infrastructure/Moovik.Modules.Movie.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Notification/">
+    <Project Path="src/Modules/Notification/Moovik.Modules.Notification.Application/Moovik.Modules.Notification.Application.csproj" />
+    <Project Path="src/Modules/Notification/Moovik.Modules.Notification.Domain/Moovik.Modules.Notification.Domain.csproj" />
+    <Project Path="src/Modules/Notification/Moovik.Modules.Notification.Infrastructure/Moovik.Modules.Notification.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Payment/">
+    <Project Path="src/Modules/Payment/Moovik.Modules.Payment.Application/Moovik.Modules.Payment.Application.csproj" />
+    <Project Path="src/Modules/Payment/Moovik.Modules.Payment.Domain/Moovik.Modules.Payment.Domain.csproj" />
+    <Project Path="src/Modules/Payment/Moovik.Modules.Payment.Infrastructure/Moovik.Modules.Payment.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Showtime/">
+    <Project Path="src/Modules/Showtime/Moovik.Modules.Showtime.Application/Moovik.Modules.Showtime.Application.csproj" />
+    <Project Path="src/Modules/Showtime/Moovik.Modules.Showtime.Domain/Moovik.Modules.Showtime.Domain.csproj" />
+    <Project Path="src/Modules/Showtime/Moovik.Modules.Showtime.Infrastructure/Moovik.Modules.Showtime.Infrastructure.csproj" />
   </Folder>
 </Solution>
